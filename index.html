@@ -21,18 +21,18 @@
     </header>
     <main>
         <section class="container">
-            <h1>Lista de Tareas 📋✍</h1>
+            <h1 class="pt-3">Lista de Tareas 📋✍</h1>
             <form>
                 <div class="mb-3">
                   <label for="agregarTarea" class="form-label">Cargar tarea:</label>
                   <input type="text" class="form-control" id="agregarTarea" required maxlength="300" minlength="10">
                 </div>
-                <button class="btn btn-add btn-warning">Agregar tarea</button>
+                <button class="btn btn-add btn-outline-warning">Agregar tarea</button>
             </form>
 
-            <div>
+            <div class="mt-4" id="contenedorLista">
                 <ul>
-                    
+
                 </ul>
             </div>
 
@@ -45,3 +45,4 @@
     <script src="./js/app.js"></script>
 </body>
 </html>
+
